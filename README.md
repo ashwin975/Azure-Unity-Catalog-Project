@@ -7,5 +7,5 @@
 
 ##Architecture:
 
-![alt text](https://github.com/ashwin975/Azure-Unity-Catalog-Project/blob/main/Pipeline%20Overview.jpeg)
+![alt text](https://github.com/ashwin975/Azure-Unity-Catalog-Project/blob/main/Azure%20Unity%20Catalog%20Project.png)
 
