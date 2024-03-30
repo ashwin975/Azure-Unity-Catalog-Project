@@ -15,6 +15,12 @@ The resulting Managed tables stored in Delta lake format represent the curated d
 
 ![alt text](https://github.com/ashwin975/Azure-Unity-Catalog-Project/blob/main/Azure%20Unity%20Catalog%20Project.png)
 
+## Process Overview:
+- Storage account, Databricks workspace, Databricks access connector, Resource group, Databricks metastore, cluster configurations were setup initially
+- Connections and access management between Azure storage container and databricks workspace were established
+- Ingestion and Transformations notebooks were created using SQL
+- Workflow was orchestrated to run the notebooks sequentially 
+
 ## Tools Used:
  - Programming Language - SQL, PySpark
  - Azure Cloud, Databricks
