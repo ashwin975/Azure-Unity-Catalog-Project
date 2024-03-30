@@ -28,10 +28,3 @@ WITH (STORAGE CREDENTIAL `databricks-uc-ext-storage-cred`);
 
 
 
--- COMMAND ----------
-
-
-
--- COMMAND ----------
-
-
