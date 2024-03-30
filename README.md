@@ -27,4 +27,4 @@ The resulting Managed tables stored in Delta lake format represent the curated d
  - Azure Data lake Gen 2
 
 ## Dataset Used:
-ERGAST API - Formula 1 Dataset
+ERGAST API - Formula 1 Dataset - Drivers and Results JSON files
