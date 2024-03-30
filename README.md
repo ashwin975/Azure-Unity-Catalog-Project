@@ -19,7 +19,13 @@ The resulting Managed tables stored in Delta lake format represent the curated d
 - Storage account, Databricks workspace, Databricks access connector, Resource group, Databricks metastore, cluster configurations were setup initially
 - Connections and access management between Azure storage container and databricks workspace were established
 - Ingestion and Transformations notebooks were created using SQL
-- Workflow was orchestrated to run the notebooks sequentially 
+- Workflow was orchestrated to run the notebooks sequentially
+
+Key Benefits of Using Unity Catalog: 
+1. Data Discoverability: Data explorer provides a simple search through for any objects in catalog (with UI and SQL queries)
+2. Data Audit: Audit logs/information can be viewed (when diagnostic settings are enabled)
+3. Data Lineage: workflow, downstream and upstream datamovements can be viewed. With this we can perform root cause analysis, impact analysis and better manage data requiring regulatory compliance  
+4. Data Access Control: Metastore access can be modified as required or as per user level (GRANT and REVOKE statements - SQL, CLI, also using Data Explorer)
 
 ## Tools Used:
  - Programming Language - SQL, PySpark
